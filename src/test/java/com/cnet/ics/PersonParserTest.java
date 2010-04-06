@@ -15,11 +15,8 @@ import static org.junit.Assert.assertThat;
 public class PersonParserTest {
     @Test
     public void testNoop() throws IOException {
-        assertThat(true, is(true));
-
-        List<String> lines = PersonParser.parse("/var/tmp/people.txt");
-
-        assertThat(lines.size(), is(3));
+        List<String> lines = PersonParser.parse("src/test/resources/people.txt");
+        assertThat(lines.size(), is(4));
     }
 
     @Test(expected = FileNotFoundException.class)
