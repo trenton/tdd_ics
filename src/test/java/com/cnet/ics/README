@@ -1,0 +1,9 @@
+
+
+Deserialize an object Person with fields first name, last name,
+id, and notes. Serialization format is comma separated in that
+order:
+
+Trenton Lipscomb,1109,me
+Barry Manilow,400,xyz
+
