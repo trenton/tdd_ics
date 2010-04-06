@@ -14,7 +14,7 @@ import static org.junit.Assert.assertThat;
 
 public class PersonParserTest {
     @Test
-    public void testNoop() throws IOException {
+    public void testSimpleParse() throws IOException {
         List<String> lines = PersonParser.parse("src/test/resources/people.txt");
         assertThat(lines.size(), is(4));
     }
