@@ -12,7 +12,7 @@ import java.util.List;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-public class UnitTest {
+public class PersonParserTest {
     @Test
     public void testNoop() throws IOException {
         assertThat(true, is(true));
